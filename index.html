@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Резюме - Лемещук Вікторія</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand header__brand" href="#">Резюме</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse header__menu" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link header__link" href="#about">Про мене</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header__link" href="#skills">Навички</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header__link" href="#experience">Досвід</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header__link" href="#education">Освіта</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header__link" href="#contacts">Контакти</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <svg
+        id="wave"
+        style="transform: rotate(180deg); transition: 0.3s"
+        viewBox="0 0 1440 280"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+            <stop stop-color="rgba(0, 123, 255, 1)" offset="0%"></stop>
+            <stop stop-color="rgba(0, 123, 255, 1)" offset="100%"></stop>
+          </linearGradient>
+        </defs>
+        <path
+          style="transform: translate(0, 0px); opacity: 1"
+          fill="url(#sw-gradient-0)"
+          d="M0,56L40,79.3C80,103,160,149,240,158.7C320,168,400,140,480,107.3C560,75,640,37,720,60.7C800,84,880,168,960,177.3C1040,187,1120,121,1200,88.7C1280,56,1360,56,1440,46.7C1520,37,1600,19,1680,9.3C1760,0,1840,0,1920,0C2000,0,2080,0,2160,0C2240,0,2320,0,2400,14C2480,28,2560,56,2640,98C2720,140,2800,196,2880,196C2960,196,3040,140,3120,102.7C3200,65,3280,47,3360,74.7C3440,103,3520,177,3600,191.3C3680,205,3760,159,3840,149.3C3920,140,4000,168,4080,158.7C4160,149,4240,103,4320,98C4400,93,4480,131,4560,163.3C4640,196,4720,224,4800,205.3C4880,187,4960,121,5040,121.3C5120,121,5200,187,5280,200.7C5360,215,5440,177,5520,135.3C5600,93,5680,47,5720,23.3L5760,0L5760,280L5720,280C5680,280,5600,280,5520,280C5440,280,5360,280,5280,280C5200,280,5120,280,5040,280C4960,280,4880,280,4800,280C4720,280,4640,280,4560,280C4480,280,4400,280,4320,280C4240,280,4160,280,4080,280C4000,280,3920,280,3840,280C3760,280,3680,280,3600,280C3520,280,3440,280,3360,280C3280,280,3200,280,3120,280C3040,280,2960,280,2880,280C2800,280,2720,280,2640,280C2560,280,2480,280,2400,280C2320,280,2240,280,2160,280C2080,280,2000,280,1920,280C1840,280,1760,280,1680,280C1600,280,1520,280,1440,280C1360,280,1280,280,1200,280C1120,280,1040,280,960,280C880,280,800,280,720,280C640,280,560,280,480,280C400,280,320,280,240,280C160,280,80,280,40,280L0,280Z"
+        ></path>
+      </svg>
+    </header>
+
+    <main>
+      <section class="profile animate__animated animate__fadeIn">
+        <div class="row profile__info align-items-center">
+          <div class="col-md-4 profile__photo text-center">
+            <img
+              src="./imgs/myphoto.jpg"
+              alt="Вікторія"
+              class="img-fluid rounded-circle shadow"
+            />
+          </div>
+          <div class="col-md-8 profile__details">
+            <h1 class="profile__name">Лемещук Вікторія Ігорівна</h1>
+            <h2 class="profile__position text-muted">Студент</h2>
+            <p class="profile__bio">
+              Я студентка університету, яка шукає можливість працювати
+              віддалено. Маю досвід роботи з електронною поштою та іншими
+              засобами письмового спілкування.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about section bg-light p-4 rounded shadow-sm">
+        <h3 class="section__title">Основні якості</h3>
+        <ul class="about__list">
+          <li class="about__item">
+            Здатність чітко та лаконічно висловлювати свої думки усно;
+          </li>
+          <li class="about__item">
+            Досвід роботи з електронною поштою та іншими засобами письмового
+            спілкування;
+          </li>
+          <li class="about__item">
+            Володіння сервісами Google Workspace та Microsoft365;
+          </li>
+          <li class="about__item">
+            Здатність ефективно співпрацювати в групі;
+          </li>
+          <li class="about__item">
+            Здатність слухати уважно та враховувати точки зору інших;
+          </li>
+          <li class="about__item">
+            Володіння українською мовою (рідна), англійською мовою (читання
+            технічної документації);
+          </li>
+          <li class="about__item">
+            Володіння інструментами для відеоконференцій, чатів,
+            інтернет-телефонії.
+          </li>
+        </ul>
+      </section>
+
+      <section id="skills" class="skills section">
+        <h3 class="section__title">Навички</h3>
+        <div class="skills__bars">
+          <div class="skills__item">
+            <span class="skills__name">HTML</span>
+            <div class="progress">
+              <div class="progress-bar skills__level" style="width: 90%">
+                90%
+              </div>
+            </div>
+          </div>
+          <div class="skills__item">
+            <span class="skills__name">CSS</span>
+            <div class="progress">
+              <div class="progress-bar skills__level" style="width: 75%">
+                75%
+              </div>
+            </div>
+          </div>
+          <div class="skills__item">
+            <span class="skills__name">JavaScript</span>
+            <div class="progress">
+              <div class="progress-bar skills__level" style="width: 40%">
+                40%
+              </div>
+            </div>
+          </div>
+          <div class="skills__item">
+            <span class="skills__name">Python</span>
+            <div class="progress">
+              <div class="progress-bar skills__level" style="width: 60%">
+                60%
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section id="wave-section">
+      <div class="wave-container">
+        <svg
+          id="wave"
+          style="transform: rotate(0deg); transition: 0.3s"
+          viewBox="0 0 1440 330"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+              <stop stop-color="rgba(0, 123, 255, 1)" offset="0%"></stop>
+              <stop stop-color="rgba(0, 123, 255, 1)" offset="100%"></stop>
+            </linearGradient>
+          </defs>
+          <path
+            style="transform: translate(0, 0px); opacity: 1"
+            fill="url(#sw-gradient-0)"
+            d="M0,99L80,132C160,165,320,231,480,225.5C640,220,800,143,960,132C1120,121,1280,176,1440,170.5C1600,165,1760,99,1920,71.5C2080,44,2240,55,2400,66C2560,77,2720,88,2880,82.5C3040,77,3200,55,3360,60.5C3520,66,3680,99,3840,132C4000,165,4160,198,4320,192.5C4480,187,4640,143,4800,104.5C4960,66,5120,33,5280,38.5C5440,44,5600,88,5760,99C5920,110,6080,88,6240,110C6400,132,6560,198,6720,236.5C6880,275,7040,286,7200,291.5C7360,297,7520,297,7680,275C7840,253,8000,209,8160,203.5C8320,198,8480,231,8640,253C8800,275,8960,286,9120,275C9280,264,9440,231,9600,225.5C9760,220,9920,242,10080,214.5C10240,187,10400,110,10560,66C10720,22,10880,11,11040,44C11200,77,11360,154,11440,192.5L11520,231L11520,330L11440,330C11360,330,11200,330,11040,330C10880,330,10720,330,10560,330C10400,330,10240,330,10080,330C9920,330,9760,330,9600,330C9440,330,9280,330,9120,330C8960,330,8800,330,8640,330C8480,330,8320,330,8160,330C8000,330,7840,330,7680,330C7520,330,7360,330,7200,330C7040,330,6880,330,6720,330C6560,330,6400,330,6240,330C6080,330,5920,330,5760,330C5600,330,5440,330,5280,330C5120,330,4960,330,4800,330C4640,330,4480,330,4320,330C4160,330,4000,330,3840,330C3680,330,3520,330,3360,330C3200,330,3040,330,2880,330C2720,330,2560,330,2400,330C2240,330,2080,330,1920,330C1760,330,1600,330,1440,330C1280,330,1120,330,960,330C800,330,640,330,480,330C320,330,160,330,80,330L0,330Z"
+          ></path>
+        </svg>
+        <svg
+          id="wave"
+          style="transform: rotate(180deg); transition: 0.3s"
+          viewBox="0 0 1440 400"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+              <stop stop-color="rgba(0, 123, 255, 1)" offset="0%"></stop>
+              <stop stop-color="rgba(0, 123, 255, 1)" offset="100%"></stop>
+            </linearGradient>
+          </defs>
+          <path
+            style="transform: translate(0, 0px); opacity: 1"
+            fill="url(#sw-gradient-0)"
+            d="M0,80L20,120C40,160,80,240,120,266.7C160,293,200,267,240,266.7C280,267,320,293,360,300C400,307,440,293,480,273.3C520,253,560,227,600,226.7C640,227,680,253,720,240C760,227,800,173,840,133.3C880,93,920,67,960,80C1000,93,1040,147,1080,166.7C1120,187,1160,173,1200,186.7C1240,200,1280,240,1320,266.7C1360,293,1400,307,1440,273.3C1480,240,1520,160,1560,166.7C1600,173,1640,267,1680,286.7C1720,307,1760,253,1800,226.7C1840,200,1880,200,1920,166.7C1960,133,2000,67,2040,73.3C2080,80,2120,160,2160,200C2200,240,2240,240,2280,200C2320,160,2360,80,2400,66.7C2440,53,2480,107,2520,120C2560,133,2600,107,2640,140C2680,173,2720,267,2760,286.7C2800,307,2840,253,2860,226.7L2880,200L2880,400L2860,400C2840,400,2800,400,2760,400C2720,400,2680,400,2640,400C2600,400,2560,400,2520,400C2480,400,2440,400,2400,400C2360,400,2320,400,2280,400C2240,400,2200,400,2160,400C2120,400,2080,400,2040,400C2000,400,1960,400,1920,400C1880,400,1840,400,1800,400C1760,400,1720,400,1680,400C1640,400,1600,400,1560,400C1520,400,1480,400,1440,400C1400,400,1360,400,1320,400C1280,400,1240,400,1200,400C1160,400,1120,400,1080,400C1040,400,1000,400,960,400C920,400,880,400,840,400C800,400,760,400,720,400C680,400,640,400,600,400C560,400,520,400,480,400C440,400,400,400,360,400C320,400,280,400,240,400C200,400,160,400,120,400C80,400,40,400,20,400L0,400Z"
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <main>
+      <section
+        id="experience"
+        class="experience section bg-light p-4 rounded shadow-sm"
+      >
+        <h3 class="section__title">Досвід роботи</h3>
+        <ul class="experience__list">
+          <li class="experience__item">
+            <strong>Фріланс:</strong> проведення онлайн трансляцій на платформі
+            Twitch, 11.2022-сьогодні.
+          </li>
+          <li class="experience__item">
+            <strong>Компанія:</strong> IT-фахівець, 02.2024-сьогодні,
+            навантаження сайтів, допомога в офісі.
+          </li>
+        </ul>
+      </section>
+
+      <section id="education" class="education section">
+        <h3 class="section__title">Освіта</h3>
+        <ul class="education__list">
+          <li class="education__item">
+            <strong>Ліцей:</strong> Фізико-математичний клас, бал атестату 10+,
+            2018-2022 рр.
+          </li>
+          <li class="education__item">
+            <strong>Університет:</strong> Середня освіта (Інформатика). Середній
+            бал — 90+, 2022-2026 рр.
+          </li>
+          <li class="education__item">
+            <strong>Університет:</strong> Право. Середній бал — 90+, 2022-2026
+            рр.
+          </li>
+        </ul>
+      </section>
+
+      <section
+        id="contacts"
+        class="contacts section bg-light p-4 rounded shadow-sm"
+      >
+        <h3 class="section__title">Контакти</h3>
+        <p class="contacts__info">
+          Телефон: <a href="tel:+380662398001">+38 066 239 8001</a> | Електронна
+          пошта:
+          <a href="mailto:viktoriia.lemeshchuk@university.kherson.ua"
+            >viktoriia.lemeshchuk@university.kherson.ua</a
+          >
+        </p>
+        <div class="contacts__social">
+          <a
+            href="https://www.instagram.com/lem_viktoriia/"
+            target="_blank"
+            class="contacts__link"
+          >
+            <img
+              src="./imgs/instagram-icon.svg"
+              alt="Instagram"
+              class="social-icon"
+            />
+            Instagram
+          </a>
+          <a
+            href="https://github.com/lemvika"
+            target="_blank"
+            class="contacts__link"
+          >
+            <img
+              src="./imgs/github-icon.svg"
+              alt="GitHub"
+              class="social-icon"
+            />
+            GitHub
+          </a>
+          <a
+            href="https://t.me/lem_viktoriia"
+            target="_blank"
+            class="contacts__link"
+          >
+            <img
+              src="./imgs/telegram-logo.svg"
+              alt="Telegram"
+              class="social-icon"
+            />
+            Telegram
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer bg-light">
+      <div class="container text-center">
+        <p class="footer__text">© 2024 Лемещук Вікторія Ігорівна</p>
+      </div>
+      <svg
+        id="wave"
+        style="transform: rotate(0deg); transition: 0.3s"
+        viewBox="0 0 1440 290"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+            <stop stop-color="rgba(0, 123, 255, 1)" offset="0%"></stop>
+            <stop stop-color="rgba(0, 123, 255, 1)" offset="100%"></stop>
+          </linearGradient>
+        </defs>
+        <path
+          style="transform: translate(0, 0px); opacity: 1"
+          fill="url(#sw-gradient-0)"
+          d="M0,145L26.7,159.5C53.3,174,107,203,160,212.7C213.3,222,267,213,320,198.2C373.3,184,427,164,480,149.8C533.3,135,587,126,640,120.8C693.3,116,747,116,800,106.3C853.3,97,907,77,960,101.5C1013.3,126,1067,193,1120,217.5C1173.3,242,1227,222,1280,222.3C1333.3,222,1387,242,1440,241.7C1493.3,242,1547,222,1600,207.8C1653.3,193,1707,184,1760,154.7C1813.3,126,1867,77,1920,72.5C1973.3,68,2027,106,2080,130.5C2133.3,155,2187,164,2240,169.2C2293.3,174,2347,174,2400,169.2C2453.3,164,2507,155,2560,169.2C2613.3,184,2667,222,2720,198.2C2773.3,174,2827,87,2880,58C2933.3,29,2987,58,3040,91.8C3093.3,126,3147,164,3200,169.2C3253.3,174,3307,145,3360,135.3C3413.3,126,3467,135,3520,116C3573.3,97,3627,48,3680,29C3733.3,10,3787,19,3813,24.2L3840,29L3840,290L3813.3,290C3786.7,290,3733,290,3680,290C3626.7,290,3573,290,3520,290C3466.7,290,3413,290,3360,290C3306.7,290,3253,290,3200,290C3146.7,290,3093,290,3040,290C2986.7,290,2933,290,2880,290C2826.7,290,2773,290,2720,290C2666.7,290,2613,290,2560,290C2506.7,290,2453,290,2400,290C2346.7,290,2293,290,2240,290C2186.7,290,2133,290,2080,290C2026.7,290,1973,290,1920,290C1866.7,290,1813,290,1760,290C1706.7,290,1653,290,1600,290C1546.7,290,1493,290,1440,290C1386.7,290,1333,290,1280,290C1226.7,290,1173,290,1120,290C1066.7,290,1013,290,960,290C906.7,290,853,290,800,290C746.7,290,693,290,640,290C586.7,290,533,290,480,290C426.7,290,373,290,320,290C266.7,290,213,290,160,290C106.7,290,53,290,27,290L0,290Z"
+        ></path>
+      </svg>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
