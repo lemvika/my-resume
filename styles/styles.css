@@ -37,6 +37,15 @@ main {
   color: #007bff;
 }
 
+.header__brand {
+  color: #004b9c;
+  font-weight: 600;
+}
+
+.header__brand:hover {
+  color: #0066d3;
+}
+
 .section {
   margin-bottom: 3rem;
 }
@@ -222,5 +231,23 @@ main {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-link {
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+@media (max-width: 768px) {
+  .nav-link:hover {
+    color: inherit;
+    background-color: transparent;
   }
 }
